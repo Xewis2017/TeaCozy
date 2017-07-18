@@ -28,6 +28,7 @@ body {
   border-bottom: 1px solid seashell;
   justify-content: space-between;
   align-items: center;
+
 }
 
 .logo {
@@ -44,6 +45,7 @@ body {
 .nav {
     display: inline-flex;
     flex-flow: row wrap;
+    flex-shrink: 3;
    width: 30%;
    height: 50px;
    justify-content: center;
@@ -55,7 +57,6 @@ body {
   padding-left: 5px;
   padding-right: 5px;
   text-decoration: underline;
-
 }
 
 .main {
